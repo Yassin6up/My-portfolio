@@ -1,0 +1,31 @@
+.cert-div{
+    background-color: rgb(47 47 47);
+    height: 330px;
+    padding: 20px;
+    width: 60%;
+}
+.cert-div img{
+    width: 100%;
+    height: 200px;
+}
+.cert-div h1{
+    font-size: 25px;
+    background-color: rgb(47 47 47);
+}
+.cert-div h6{
+    font-size: 15px;
+    font-weight: 200;
+    background-color: rgb(47 47 47);
+}
+
+.cert-div p{
+    background-color: rgb(47 47 47);
+    color: rgb(156 163 175);
+    font-weight: 300;
+}
+@media screen and (min-width: 1024px){
+    .cert-div{
+        width: 30%;
+    }
+}
+

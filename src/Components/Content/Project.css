@@ -1,0 +1,43 @@
+.project-div{
+    width: 30%;
+    height: 250px;
+    border: 2px solid rgb(47 47 47);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.project-div img{
+    width: 40%;
+    border-radius: 50%;
+}
+.project-div h1{
+    font-size: medium;
+}
+.project-div code{
+    font-size: small;
+    color: rgba(249, 21, 249, 0.618);
+    font-weight: 700;
+}
+.project-div code::before{
+    content: "#";
+}
+.project-div button {
+    border: 2px solid rgba(249, 21, 249, 0.618);
+    border-radius: 50px;
+    padding: 3px;
+    width: 60%;
+    color: white;
+}
+.project-div button:hover{
+    background-color: rgba(249, 21, 249, 0.618);
+}
+
+
+@media screen and (min-width: 1024px){
+    .project-div img{
+        width: 20%;
+    }
+}
