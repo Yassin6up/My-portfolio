@@ -73,8 +73,8 @@ main_page(){
       <center><img src='https://dama.ink/static/media/curve-hr.16b9fca607ca7942b81f2887bc2dae79.svg' alt='' style={{width:"60%",marginTop:"60px"}}/></center><br/>
       <h1>My projects</h1>
       <p>There are my projects in Github</p>
-      {this.handelFetch()}
       <div className='project'>
+      {this.handelFetch()}
       {this.state.projectInfo}
       </div>
       <center><img src='https://dama.ink/static/media/curve-hr.16b9fca607ca7942b81f2887bc2dae79.svg' alt='' style={{width:"60%",marginTop:"60px"}}/></center><br/>
